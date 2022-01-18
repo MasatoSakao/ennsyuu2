@@ -1,0 +1,22 @@
+.header h1 {
+color: blue;
+font-size: 40px
+}
+.header-logo p {
+  color: blue;
+ float: right;
+ margin: 10px 10px 10px 10px;
+}
+.box {
+  width: 1200px;
+  height:150px;
+  margin-top: 600px;
+  background: blue;
+}
+.main {
+  position: relative;
+}
+.sub-title {
+  position: absolute;
+  bottom: -50px;
+}
