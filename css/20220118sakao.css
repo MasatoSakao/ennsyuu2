@@ -1,12 +1,18 @@
-.header {
+.navigation {
   color: blue;
   display: flex;
+  justify-content: flex-end;
 }
-.li {
-  color: blue;
-  display: flex;
-  flex-direction: row-reverse;
+p {
+  color: rgb(0, 0, 0);
+  font-size:40px;
 }
-h1 {
-  color: blue;
+.box {
+  height: 200px;
+  width: 600px;
+  background: blue;
+}
+.float__img {
+Width: 50px;
+float: right;
 }
