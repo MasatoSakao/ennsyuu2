@@ -1,6 +1,7 @@
 .header {
   color: blue;
   display: flex;
+  flex-direction: row-reverse;
 }
 .li {
   color: blue;
