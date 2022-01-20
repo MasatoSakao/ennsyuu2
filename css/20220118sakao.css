@@ -5,9 +5,17 @@
 .form {
   color: blue;
   display: flex;
+}
+li {
+  padding: 10px 10px 10px 10px;
+}
+.header-logo {
+  color: blue;
+  font-size:30px;
+}
 p {
-  color: black;
   font-size:40px;
+  margin-left: 50px;
 }
 .main {
 position: relative;
@@ -19,9 +27,12 @@ position: relative;
 .box {
   height: 100px;
   width: 900px;
-  background: blue
+  background: blue;
+  margin-left: 50px;
 }
 .image {
   display: block;
   margin-left: auto;
+  z-index: 30px;
+  margin-bottom: 100px;
 }
