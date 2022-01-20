@@ -1,10 +1,14 @@
-.navigation {
+.header {
+  display: flex;
+}
+.form {
   color: blue;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
 }
+
 p {
-  color: rgb(0, 0, 0);
+  color: black;
   font-size:40px;
 }
 .box {
