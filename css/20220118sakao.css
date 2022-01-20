@@ -5,7 +5,6 @@
 .form {
   color: blue;
   display: flex;
-}
 p {
   color: black;
   font-size:40px;
@@ -13,15 +12,16 @@ p {
 .main {
 position: relative;
 }
-.float__img {
-  Width: 50px;
-  position: relative;
-  display:block;
-  margin-left: auto;
-}
+.box-wrapper {
+  position: absolute;
+  bottom: 0;
+} 
 .box {
-  background: blue;
-  height: 200px;
-  width: 1100px;
-  
+  height: 100px;
+  width: 900px;
+  background: blue
+}
+.image {
+  display: block;
+  margin-left: auto;
 }
