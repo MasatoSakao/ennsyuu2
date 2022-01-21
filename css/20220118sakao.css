@@ -15,20 +15,19 @@ li {
 }
 p {
   font-size:40px;
-  margin-left: 50px;
 }
 .main {
 position: relative;
 }
 .box-wrapper {
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
+  z-index: -1;
 } 
 .box {
   height: 100px;
-  width: 900px;
+  width: 1200px;
   background: blue;
-  margin-left: 50px;
 }
 .image {
   display: block;
